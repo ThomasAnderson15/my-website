@@ -1,13 +1,7 @@
 import React from 'react'
 import './Projects.css'
-import { useHistory } from "react-router-dom";
 
 function Projects() {
-    let history = useHistory();
-
-    function handleHomeClick() {
-        history.push("/");
-      }
 
     return (
         <div className='projects-container'>

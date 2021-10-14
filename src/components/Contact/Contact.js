@@ -3,7 +3,6 @@ import emailjs from 'emailjs-com';
 import './Contact.css'
 
 
-
 function Contact() {
 
     const sendEmail = (e) => {
